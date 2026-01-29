@@ -1,0 +1,15 @@
+C:\Users\Ayden.Hoeppener\OneDrive - Ricoh Europe PLC\Desktop\Learning\Summy\Naas_visual_ui_project\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\Ayden.Hoeppener\OneDrive - Ricoh Europe PLC\Desktop\Learning\Summy\Naas_visual_ui_project\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\Ayden.Hoeppener\OneDrive - Ricoh Europe PLC\Desktop\Learning\Summy\Naas_visual_ui_project\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\Ayden.Hoeppener\OneDrive - Ricoh Europe PLC\Desktop\Learning\Summy\Naas_visual_ui_project\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ayden.Hoeppener\OneDrive - Ricoh Europe PLC\Desktop\Learning\Summy\Naas_visual_ui_project\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Ayden.Hoeppener\OneDrive - Ricoh Europe PLC\Desktop\Learning\Summy\Naas_visual_ui_project\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\Ayden.Hoeppener\OneDrive - Ricoh Europe PLC\Desktop\Learning\Summy\Naas_visual_ui_project\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Ayden.Hoeppener\OneDrive - Ricoh Europe PLC\Desktop\Learning\Summy\Naas_visual_ui_project\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\Ayden.Hoeppener\OneDrive - Ricoh Europe PLC\Desktop\Learning\Summy\Naas_visual_ui_project\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\Ayden.Hoeppener\OneDrive - Ricoh Europe PLC\Desktop\Learning\Summy\Naas_visual_ui_project\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\Ayden.Hoeppener\OneDrive - Ricoh Europe PLC\Desktop\Learning\Summy\Naas_visual_ui_project\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\Ayden.Hoeppener\OneDrive - Ricoh Europe PLC\Desktop\Learning\Summy\Naas_visual_ui_project\Infrastructure\bin\Debug\net8.0\Core_.dll
+C:\Users\Ayden.Hoeppener\OneDrive - Ricoh Europe PLC\Desktop\Learning\Summy\Naas_visual_ui_project\Infrastructure\bin\Debug\net8.0\Core_.pdb
+C:\Users\Ayden.Hoeppener\OneDrive - Ricoh Europe PLC\Desktop\Learning\Summy\Naas_visual_ui_project\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Ayden.Hoeppener\OneDrive - Ricoh Europe PLC\Desktop\Learning\Summy\Naas_visual_ui_project\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date

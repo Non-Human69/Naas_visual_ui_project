@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Web</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Web.styles.css" asp-append-version="true" />
+
+    <style>
+        /* Lightweight page-scoped improvements — move to site.css if you prefer */
+        .navbar-brand svg { height: 28px; width: 28px; margin-right: .5rem; vertical-align: -0.15rem; }
+        .site-header { box-shadow: 0 2px 8px rgba(33,37,41,0.06); }
+        main[role="main"] { padding-top: 1.5rem; padding-bottom: 2.5rem; }
+        .site-footer { background: #f8f9fa; }
+        .footer-columns { gap: 1rem; align-items: center; }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" asp-area="" asp-page="/Index">
+                    <!-- small inline SVG as lightweight logo -->
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false">
+                        <rect width="24" height="24" rx="6" fill="#4f46e5"></rect>
+                        <text x="50%" y="55%" text-anchor="middle" fill="#fff" font-family="Segoe UI, Roboto, Arial" font-size="10" font-weight="700">NaaS</text>
+                    </svg>
+                    <span class="d-none d-sm-inline">Web</span>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" asp-area="" asp-page="/Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-page="/Privacy">Privacy</a>
+                        </li>
+                    </ul>
+
+                    <div class="d-flex align-items-center">
+                        <button id="themeToggle" type="button" class="btn btn-outline-secondary btn-sm me-2" aria-pressed="false" title="Toggle color theme">
+                            Toggle theme
+                        </button>
+                        <a class="btn btn-outline-primary btn-sm" asp-page="/Privacy">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="site-footer border-top footer text-muted py-3">
+        <div class="container">
+            <div class="d-flex justify-content-between footer-columns">
+                <div>&copy; @DateTime.Now.Year - Web - <a asp-area="" asp-page="/Privacy">Privacy</a></div>
+                <div class="text-muted small">Built with Bootstrap · <a href="https://github.com/sapph42/no-as-a-service" target="_blank" rel="noopener">Source</a></div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <script>
+        // Small theme toggle that persists choice in localStorage.
+        (function () {
+            const btn = document.getElementById('themeToggle');
+            if (!btn) return;
+
+            const body = document.body;
+            const key = 'site-theme';
+            const apply = (theme) => {
+                if (theme === 'dark') {
+                    body.classList.add('bg-dark', 'text-light');
+                } else {
+                    body.classList.remove('bg-dark', 'text-light');
+                }
+                btn.setAttribute('aria-pressed', theme === 'dark');
+            };
+
+            const saved = localStorage.getItem(key) || 'light';
+            apply(saved);
+
+            btn.addEventListener('click', function () {
+                const current = body.classList.contains('bg-dark') ? 'dark' : 'light';
+                const next = current === 'dark' ? 'light' : 'dark';
+                localStorage.setItem(key, next);
+                apply(next);
+            });
+        })();
+    </script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

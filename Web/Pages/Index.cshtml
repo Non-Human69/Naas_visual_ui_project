@@ -1,0 +1,52 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="d-flex align-items-center justify-content-center" style="min-height:60vh;">
+  <div class="card shadow-sm w-100" style="max-width:900px;">
+    <div class="card-body text-center">
+      <h1 class="display-4 mb-3">Just say no?</h1>
+      <p class="lead mb-4">@Model.naasText</p>
+
+      <div class="d-flex justify-content-center gap-2 mb-3">
+        <button class="btn btn-primary" type="button"
+                onclick="navigator.clipboard?.writeText(document.querySelector('.lead')?.innerText || '')">
+          Copy message
+        </button>
+        <button class="btn btn-outline-secondary" type="button"
+                onclick="location.reload()"
+                title="Refresh page"
+                aria-label="Refresh page">
+          Refresh
+        </button>
+        <a class="btn btn-outline-secondary" asp-page="/Privacy">Privacy</a>
+      </div>
+
+      <div class="text-start mt-3">
+        <h6 class="mb-2">History</h6>
+
+        <div class="d-flex flex-wrap align-items-start gap-2" aria-live="polite">
+          @if (Model.history != null && Model.history.Any())
+          {
+              <ul>
+              @foreach (var naas in Model.history.Reverse())
+              {
+                  <li>
+                        <div class="d-inline-flex align-items-center rounded-pill bg-secondary text-white px-3 py-1 shadow-sm history-item" data-value="@naas" title="@naas">
+                            <span class="d-inline-block text-truncate">@naas</span>
+                        </div>
+                  </li>
+              }
+             </ul>
+          }
+          else
+          {
+              <small class="text-muted">No history yet.</small>
+          }
+        </div>
+      </div>
+        </div>
+  </div>
+</div>

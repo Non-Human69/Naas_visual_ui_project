@@ -1,0 +1,11 @@
+C:\Users\Ayden.Hoeppener\OneDrive - Ricoh Europe PLC\Desktop\Learning\Summy\Naas_visual_ui_project\Core_\bin\Debug\net8.0\Core_.deps.json
+C:\Users\Ayden.Hoeppener\OneDrive - Ricoh Europe PLC\Desktop\Learning\Summy\Naas_visual_ui_project\Core_\bin\Debug\net8.0\Core_.dll
+C:\Users\Ayden.Hoeppener\OneDrive - Ricoh Europe PLC\Desktop\Learning\Summy\Naas_visual_ui_project\Core_\bin\Debug\net8.0\Core_.pdb
+C:\Users\Ayden.Hoeppener\OneDrive - Ricoh Europe PLC\Desktop\Learning\Summy\Naas_visual_ui_project\Core_\obj\Debug\net8.0\Core_.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ayden.Hoeppener\OneDrive - Ricoh Europe PLC\Desktop\Learning\Summy\Naas_visual_ui_project\Core_\obj\Debug\net8.0\Core_.AssemblyInfoInputs.cache
+C:\Users\Ayden.Hoeppener\OneDrive - Ricoh Europe PLC\Desktop\Learning\Summy\Naas_visual_ui_project\Core_\obj\Debug\net8.0\Core_.AssemblyInfo.cs
+C:\Users\Ayden.Hoeppener\OneDrive - Ricoh Europe PLC\Desktop\Learning\Summy\Naas_visual_ui_project\Core_\obj\Debug\net8.0\Core_.csproj.CoreCompileInputs.cache
+C:\Users\Ayden.Hoeppener\OneDrive - Ricoh Europe PLC\Desktop\Learning\Summy\Naas_visual_ui_project\Core_\obj\Debug\net8.0\Core_.dll
+C:\Users\Ayden.Hoeppener\OneDrive - Ricoh Europe PLC\Desktop\Learning\Summy\Naas_visual_ui_project\Core_\obj\Debug\net8.0\refint\Core_.dll
+C:\Users\Ayden.Hoeppener\OneDrive - Ricoh Europe PLC\Desktop\Learning\Summy\Naas_visual_ui_project\Core_\obj\Debug\net8.0\Core_.pdb
+C:\Users\Ayden.Hoeppener\OneDrive - Ricoh Europe PLC\Desktop\Learning\Summy\Naas_visual_ui_project\Core_\obj\Debug\net8.0\ref\Core_.dll
